@@ -11,7 +11,7 @@ function Drinks() {
   const doze = 12;
 
   const handleDrink = async () => {
-    if (!data.searchResult.length) {
+    if (!data.searchResult.length || data.typePage !== 'drinks') {
       const { drinks } = await searchDrink('search', 's', '');
       setData({ searchResult: [...drinks], typePage: 'drinks' });
     }
@@ -23,16 +23,18 @@ function Drinks() {
   }, []);
 
   return (
-    <div>
+    <div className="main_container">
       <Header title="Drinks" existeButton="true" />
       <CategoryBtns page="drinks" />
-      {
-        data.searchResult.map((element, i) => (
-          (i < doze) && (
-            <CardDrink element={ element } i={ i } key={ element.idDrink } />
-          )
-        ))
-      }
+      <div className="drink_container">
+        {
+          data.searchResult.map((element, i) => (
+            (i < doze) && (
+              <CardDrink element={ element } i={ i } key={ element.idDrink } />
+            )
+          ))
+        }
+      </div>
       <Footer existeFooter="true" />
     </div>
   );

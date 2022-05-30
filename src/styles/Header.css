@@ -5,30 +5,38 @@
   src: url('../fonts/RaspoutineDemiBold_TB.otf');
 }
 
-.footer {
+h4 {
+  align-items: center;
+  color: var(--color-forth);
+  display: flex;
+  font-family: FontsTitles , sans-serif;
+  justify-content: center;
+  padding-top: 8px;
+  width: 300px;
+}
+
+.header {
   align-items: center;
   background-color: var(--color-sec);
-  bottom: 0;
   display: flex;
   height: 60px;
   justify-content: space-between;
-  padding: 4px 16px 8px;
-  position: fixed;
+  padding: 0 12px;
   width: 100%;
 }
 
-.footer_btn {
-  background-color: rgba(255, 196, 0, 0);
+.header_btn {
+  background-color: rgba(255, 234, 167, 0);
   border-radius: 50px;
   border-style: none;
 }
 
-.footer_btn:hover {
+.header_btn:hover {
   background-color: var(--color-accent);
   color: var(--color-main);
   padding: 4px;
 }
 
-.footer_btn:active {
+.header_btn:active {
   transform: translateY(4px);
 }

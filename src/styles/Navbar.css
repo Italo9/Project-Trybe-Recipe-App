@@ -1,0 +1,52 @@
+/* border: 1px solid red; */
+
+@font-face {
+  font-family: FontsTitles;
+  src: url('../fonts/RaspoutineDemiBold_TB.otf');
+}
+
+body {
+  background-color: var(--color-main);
+}
+
+h1 {
+  color: var(--color-forth);
+  font-family: FontsTitles , sans-serif;
+  padding-top: 8px;
+}
+
+.navBar {
+  align-items: center;
+  background-color: var(--color-third);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.navBtns {
+  align-items: center;
+  background-color: var(--color-third);
+  border-style: none;
+  display: flex;
+  flex-grow: 4;
+  font-family: FontsTitles , sans-serif;
+  height: 32px;
+  justify-content: center;
+  max-width: 50%;
+  min-width: 35%;
+  padding: 4px;
+}
+
+.navBtns:hover {
+  background-color: var(--color-accent);
+  color: var(--color-main);
+}
+
+.navBtns:active {
+  transform: translateY(4px);
+}
+
+.navBtns:focus {
+  background-color: var(--color-accent);
+  color: var(--color-main);
+}

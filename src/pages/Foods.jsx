@@ -12,7 +12,7 @@ function Foods() {
   const doze = 12;
 
   const handleFood = async () => {
-    if (!data.searchResult.length) {
+    if (!data.searchResult.length || data.typePage !== 'foods') {
       const { meals } = await searchFood('search', 's', '');
       setData({ searchResult: [...meals], typePage: 'foods' });
     }
@@ -24,17 +24,22 @@ function Foods() {
   }, []);
 
   return (
-    <div>
+    <div className="main_container">
       <Header title="Foods" existeButton="true" />
       <CategoryBtns page="foods" />
-      {
-        data.searchResult.map((element, i) => (
-          (i < doze) && (
-            <CardFood element={ element } i={ i } key={ element.idMeal } />
-          )
-        ))
-      }
-
+      <div className="food_container">
+        {
+          data.searchResult.map((element, i) => (
+            (i < doze) && (
+              <CardFood
+                element={ element }
+                i={ i }
+                key={ element.idMeal }
+              />
+            )
+          ))
+        }
+      </div>
       <Footer existeFooter="true" />
     </div>
   );

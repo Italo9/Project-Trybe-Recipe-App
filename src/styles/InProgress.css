@@ -1,0 +1,79 @@
+/* . {
+  background-color: rgb(139, 127, 13);
+} */
+
+/* . {
+  border: 1px solid red;
+} */
+
+@font-face {
+  font-family: FontsTitles;
+  src: url('../fonts/RaspoutineDemiBold_TB.otf');
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.recipe_container {
+  background-color: var(--color-third);
+}
+
+.recipe_title_container {
+  background-color: var(--color-third);
+  display: flex;
+  font-family: FontsTitles , sans-serif;
+  justify-content: space-evenly;
+  padding: 8px 12px 0;
+}
+
+.recipe_category {
+  background-color: var(--color-third);
+  color: var(--color-text-sec);
+  font-family: FontsTitles , sans-serif;
+  padding: 0 12px 8px;
+  width: 360px;
+}
+
+.recipe_img {
+  max-height: 360px;
+  width: 100vw;
+}
+
+.recipe_title {
+  font-size: 20px;
+  width: 250px;
+}
+
+.recipe_ingredients_container {
+  background-color: var(--color-main);
+  border-radius: 16px 16px 0 0;
+  padding: 8px 12px;
+}
+
+.recipe_instructions {
+  background-color: var(--color-main);
+  border-radius: 0;
+  padding: 8px 12px 36px;
+}
+
+.in_progress_btn {
+  background-color: var(--color-accent);
+  border-radius: 0 8px 0 0;
+  border-style: none;
+  bottom: 0;
+  color: var(--color-main);
+  font-family: FontsTitles , sans-serif;
+  height: 32px;
+  position: fixed;
+  width: 132px;
+}
+
+.in_progress_btn:active {
+  transform: translateY(4px);
+}
+
+.in_progress_btn:disabled {
+  opacity: 0.3;
+}
+

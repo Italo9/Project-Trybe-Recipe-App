@@ -6,14 +6,27 @@ export default function CardFood({ element, i }) {
   const { strMealThumb, strMeal, idMeal } = element;
 
   return (
-    <Link to={ `/foods/${idMeal}` }>
-      <div data-testid={ `${i}-recipe-card` }>
+    <Link
+      to={ `/foods/${idMeal}` }
+      className="card_container"
+      style={ { textDecoration: 'none' } }
+    >
+      <div
+        className="card_main"
+        data-testid={ `${i}-recipe-card` }
+      >
+        <p
+          className="card_title"
+          data-testid={ `${i}-card-name` }
+        >
+          {strMeal}
+        </p>
         <img
+          className="card_img"
           src={ strMealThumb }
           alt="search"
           data-testid={ `${i}-card-img` }
         />
-        <p data-testid={ `${i}-card-name` }>{strMeal}</p>
       </div>
     </Link>
   );
