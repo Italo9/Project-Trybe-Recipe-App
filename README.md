@@ -1,14 +1,16 @@
-Ultimo Projeto do módulo de Front-End Que fiz na Trybe, onde treinamos estas habilidades.
-    Utilizar Redux para gerenciar estado
-    Utilizar a biblioteca React-Redux
-    Utilizar a Context API do React para gerenciar estado
-    Utilizar o React Hook useState
-    Utilizar o React Hook useContext
-    Utilizar o React Hook useEffect
-    Criar Hooks customizados
+Ultimo projeto feito no módulo de Front-End da instituição de ensino Trybe. Neste projeto em grupo treinamos varias soft skills e hard skills.  Vale ressaltar que os objetivos específicos do projeto foram:
 
-    Este Projeto Foi feito em grupo com os ótimos profissioais, (João Pasip)[https://github.com/joao-pasip], [Italo Lima](https://github.com/Italo9), [Paulo Porto](https://github.com/prtpj1) e [Felipe Fraxe](https://github.com/felipefraxe).
+Utilizar Redux para gerenciar estado;
+Utilizar a biblioteca React-Redux;
+Utilizar a Context API do React para gerenciar estado;
+Utilizar o React Hook useState;
+Utilizar o React Hook useContext;
+Utilizar o React Hook useEffect;
+Criar Hooks customizados;
 
-    É uma aplicação voltada para mobile, por isso se for abrir no computador por favor utilizar a resolução 360 x 640. 
+Além disso, utilizamos metodologia Kanban com objetivo de proporcionar um trabalho mais transparente e direcionado. Vale ressaltar também, que exercitamos a tomada de decisão no que se refere as regras de negócios que estabelecemos no inicio da produção. Tudo isso foi possível porque os profissionais participantes, [João Pasip](https://github.com/joao-pasip), [Sergio Francisco](https://github.com/SerjoFrancisco), [Paulo Porto](https://github.com/prtpj1) e [Felipe Fraxe](https://github.com/felipefraxe)  se dedicaram exclusivamente para com a produção.
 
-    Para rodar localmente é necessário fazer o clone od repositório, depois instalar as dependencias com 'npm install' e rodar com 'npm start'. Ou pode acessar [aqui](pudim.com.br).
+Essa é uma aplicação voltada para mobile, por isso se for abrir no computador por favor utilizar a resolução 360 x 640. 
+
+Para rodar localmente é necessário fazer o clone do repositório,  instalar as dependências com 'npm install' e inicia-lo com 'npm start'. Ademas, se preferir, também pode acessar [aqui](pudim.com.br).
+
