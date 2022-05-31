@@ -16,6 +16,6 @@ Ultimo projeto feito no módulo de Front-End da instituição de ensino Trybe.
 ## Como usar
 - [Fork o repositório](https://github.com/Italo9/Project-Trybe-Recipe-App);
 
-- Clone para sua máquina local: `git clone https://github.com/Italo9/Project-Trybe-Recipe-App.git`
-- Instale as dependências: `npm install`
-- Inicialize o projeto: `npm start`
+- Clone para sua máquina local: `git clone https://github.com/Italo9/Project-Trybe-Recipe-App.git`;
+- Instale as dependências: `npm install`;
+- Inicialize o projeto: `npm start`;
