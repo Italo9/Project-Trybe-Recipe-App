@@ -1,16 +1,21 @@
-Ultimo projeto feito no módulo de Front-End da instituição de ensino Trybe. Neste projeto em grupo treinamos varias soft skills e hard skills.  Salienta-se que os objetivos específicos do projeto foram:
+Ultimo projeto feito no módulo de Front-End da instituição de ensino Trybe. 
+# [RECIPES APP](https://fsipp-recipe-app.vercel.app/)
 
-Utilizar Redux para gerenciar estado;
-Utilizar a biblioteca React-Redux;
-Utilizar a Context API do React para gerenciar estado;
-Utilizar o React Hook useState;
-Utilizar o React Hook useContext;
-Utilizar o React Hook useEffect;
-Criar Hooks customizados;
+## Introdução
 
-Além disso, utilizamos metodologia Kanban com objetivo de proporcionar um trabalho mais transparente e direcionado. Vale ressaltar também, que exercitamos a tomada de decisão no que se refere as regras de negócios que estabelecemos no inicio da produção. Tudo isso foi possível porque os profissionais participantes, [João Pasip](https://github.com/joao-pasip), [Sergio Francisco](https://github.com/SerjoFrancisco), [Paulo Porto](https://github.com/prtpj1) e [Felipe Fraxe](https://github.com/felipefraxe)  se dedicaram exclusivamente para com a produção.
+  No que se refere a um aplicativo de receita, é notável que existe a necessidade de encontrar receitas completas de forma rápida e eficiente. Foi pensando nisso que esta aplicação foi desenvolvida, consumindo dados de 2 API's ao mesmo tempo. A novidade é que implementamos uma interface mobile only e no percurso do desenvolvimento treinamos varias soft skills e hard skills, o que ajudou diretamente à entrega do projeto dentro do prazo. 
+  Além disso, utilizamos metodologia Kanban com objetivo de proporcionar um trabalho mais transparente e direcionado. Vale ressaltar também, que exercitamos a tomada de decisão no que se refere as regras de negócios que estabelecemos no inicio da produção. Tudo isso foi possível porque os profissionais participantes, [João Pasip](https://github.com/joao-pasip), [Sergio Francisco](https://github.com/SerjoFrancisco), [Paulo Porto](https://github.com/prtpj1) e [Felipe Fraxe](https://github.com/felipefraxe)  se dedicaram exclusivamente para com a produção.
 
-Essa é uma aplicação voltada para mobile, por isso se for abrir no computador por favor utilizar a resolução 360 x 640. 
+## Objetivos
 
-Para rodar localmente é necessário fazer o clone do repositório,  instalar as dependências com 'npm install' e inicia-lo com 'npm start'. Además, se preferir, também pode acessar [aqui](https://fsipp-recipe-app.vercel.app/).
+- Consumir Redux para gerenciar estado e/ou a Context API do React para gerenciar estado;
+- Usufruir a biblioteca React-Redux;
+- Utilizar o React Hook useState, useContext,useEffect;
+- Criar Hooks customizados;
 
+## Como usar
+- [Fork o repositório](https://github.com/Italo9/Project-Trybe-Recipe-App);
+
+- Clone para sua máquina local: `git clone https://github.com/Italo9/Project-Trybe-Recipe-App.git`
+- Instale as dependências: `npm install`
+- Inicialize o projeto: `npm start`
