@@ -1,4 +1,4 @@
-Ultimo projeto feito no módulo de Front-End da instituição de ensino Trybe. Neste projeto em grupo treinamos varias soft skills e hard skills.  Vale ressaltar que os objetivos específicos do projeto foram:
+Ultimo projeto feito no módulo de Front-End da instituição de ensino Trybe. Neste projeto em grupo treinamos varias soft skills e hard skills.  Salienta-se que os objetivos específicos do projeto foram:
 
 Utilizar Redux para gerenciar estado;
 Utilizar a biblioteca React-Redux;
