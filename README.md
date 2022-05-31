@@ -1,7 +1,7 @@
 Ultimo projeto feito no módulo de Front-End da instituição de ensino Trybe. 
 # [RECIPES APP](https://fsipp-recipe-app.vercel.app/)
 
-## Introdução
+## Apresentação
 
   No que se refere a um aplicativo de receita, é notável que existe a necessidade de encontrar receitas completas de forma rápida e eficiente. Foi pensando nisso que esta aplicação foi desenvolvida, consumindo dados de 2 API's ao mesmo tempo. A novidade é que implementamos uma interface `mobile only` e no percurso do desenvolvimento treinamos varias soft skills e hard skills, o que ajudou na entrega do projeto dentro do prazo. 
   Além disso, utilizamos o `Trello` como ferramenta kanban com objetivo de proporcionar um trabalho mais transparente e direcionado a todos os envolvidos. Vale ressaltar também, que exercitamos a tomada de decisão no que se refere as regras de negócios que estabelecemos no inicio da produção e que tudo isso foi possível porque os profissionais participantes, [João Pasip](https://github.com/joao-pasip), [Sergio Francisco](https://github.com/SerjoFrancisco), [Paulo Porto](https://github.com/prtpj1) e [Felipe Fraxe](https://github.com/felipefraxe)  se dedicaram exclusivamente para com a atividade proposta.
