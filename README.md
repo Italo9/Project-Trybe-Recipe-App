@@ -1,4 +1,4 @@
-Ultimo projeto feito no módulo de Front-End da instituição de ensino Trybe. 
+Último projeto feito no módulo de Front-End da instituição de ensino Trybe. 
 # [RECIPES APP](https://fsipp-recipe-app.vercel.app/)
 
 ## Apresentação
