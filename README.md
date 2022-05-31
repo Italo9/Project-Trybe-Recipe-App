@@ -12,5 +12,5 @@ Além disso, utilizamos metodologia Kanban com objetivo de proporcionar um traba
 
 Essa é uma aplicação voltada para mobile, por isso se for abrir no computador por favor utilizar a resolução 360 x 640. 
 
-Para rodar localmente é necessário fazer o clone do repositório,  instalar as dependências com 'npm install' e inicia-lo com 'npm start'. Ademas, se preferir, também pode acessar [aqui]([pudim.com.br](https://fsipp-recipe-app.vercel.app/)).
+Para rodar localmente é necessário fazer o clone do repositório,  instalar as dependências com 'npm install' e inicia-lo com 'npm start'. Ademas, se preferir, também pode acessar [aqui](https://fsipp-recipe-app.vercel.app/).
 
