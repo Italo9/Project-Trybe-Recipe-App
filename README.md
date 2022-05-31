@@ -10,7 +10,7 @@ Ultimo projeto feito no módulo de Front-End da instituição de ensino Trybe.
 
 - Consumir Redux para gerenciar estado e/ou a Context API do React para gerenciar estado;
 - Usufruir a biblioteca React-Redux;
-- Utilizar o React Hook useState, useContext,useEffect;
+- Utilizar o React Hook useState, useContext, useEffect;
 - Criar Hooks customizados;
 
 ## Como usar
