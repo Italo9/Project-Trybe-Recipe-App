@@ -14,8 +14,8 @@
 - Criar Hooks customizados;
 
 ## Como usar
-- [Fork o repositório](https://github.com/`YourAccount`/Project-Trybe-Recipe-App);
+- [Fork o repositório](https://github.com/Italo9/Project-Trybe-Recipe-App);
 
-- Clone para sua máquina local: `git clone https://github.com/Italo9/Project-Trybe-Recipe-App.git`;
+- Clone para sua máquina local: `git clone https://github.com/`YourAccount`/Project-Trybe-Recipe-App.git`;
 - Instale as dependências: `npm install`;
 - Inicialize o projeto: `npm start`;
